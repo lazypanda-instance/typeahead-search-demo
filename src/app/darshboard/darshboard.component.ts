@@ -17,7 +17,7 @@ export class DarshboardComponent implements OnInit {
   public inActiveSearchSubject: BehaviorSubject<boolean> = new BehaviorSubject(false);
   componentRef: any;
 
-  private searchDataSource: Array<any> = ['A', 'B'];
+  private searchDataSource: Array<any> = [];
   selectedItem: any;
 
   constructor(private factoryResolver: ComponentFactoryResolver,
