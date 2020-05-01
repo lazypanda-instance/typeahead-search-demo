@@ -20,6 +20,9 @@ import { DarshboardComponent } from './darshboard/darshboard.component';
     HttpClientModule,
     FormsModule
   ],
+  entryComponents: [
+    TypeaheadSearchComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
