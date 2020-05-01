@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>Typeahead OR Autocomplete search demo</h2>
+
+  <div class="search-container">
+    <div *ngIf="(isSearchActive | async);then showSearchActiveState else showSearchDeactiveState"></div>
+
+    <ng-template #showSearchDeactiveState>
+      <div #searchBtn class="search-btn" floating="true" size="sm" (click)='searchOnTable()'>
+        <img src='assets/images/icon_search.svg'>
+        <div class="btn-txt">SEARCH</div>
+      </div>
+    </ng-template>
+
+    <ng-template #showSearchActiveState>
+      <template #searchcontainer></template>
+    </ng-template>
+  </div>
+
+  <div class="spacing">
+    <div>
+      <textarea type="text" class="textarea-style" rows="20" readonly [(ngModel)]="selectedItem"></textarea>
+    </div>
+  </div>
+</div>

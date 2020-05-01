@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'typeahead-search-demo';
+  title = 'Typeahead-search-demo';
 }

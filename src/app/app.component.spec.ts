@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'typeahead-search-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('typeahead-search-demo');
+    expect(app.title).toEqual('Typeahead-search-demo');
   });
 
   it('should render title', () => {

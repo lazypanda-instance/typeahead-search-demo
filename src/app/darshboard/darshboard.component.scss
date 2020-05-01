@@ -1,0 +1,48 @@
+app-darshboard {
+  .container {
+    margin: 3em;
+  }
+
+  .search-container {
+    height: 3em;
+    padding-top: 3em;
+
+    .search-btn {
+      display: flex;
+      box-sizing: border-box;
+      height: 25px;
+      width: 110px;
+      border: 1px solid #E7E7E7;
+      border-radius: 2px;
+      background-color: #FFFFFF;
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.03);
+
+      img {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .btn-txt {
+        padding-top: 6px;
+        height: 12px;
+        width: 44px;
+        color: #007DBA;
+        letter-spacing: 0.32px;
+        line-height: 12px;
+      }
+    }
+  }
+
+  .spacing {
+    margin-top: 0em;
+    position: absolute;
+    width: 80%;
+  }
+
+  .textarea-style {
+    background-color: gray !important;
+    color: white;
+    padding: 20px !important;
+    width: 80%;
+    font-size: 17px;
+  }
+}
